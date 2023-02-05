@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("./assets/RobotoMono-Bold.ttf") format("opentype")
+    }
+
+* {
+    margin: 0;
+}
+
+div {
+    display: grid;              /* Spaces everything out */
+    place-items: center;        /* equally at the center */
+    height: 100vh;
+    background-color: black;
+}
+
+h1 {
+    font-family: "CustomFont";
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+img {
+    color: antiquewhite;
+    font-size: 600%;
+}
+
+a {
+    padding: 30px;
+    border-radius: 99px;
+    background-color: #905297;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.sponsors {
+    display: flex;  
+    width: fit-content;
+    justify-content: space-around;
+}
+
+div > h6 {
+    color: white;
+}
+
+.logo {
+    width: 5%;
+    height: min-content;
+}
